@@ -65,9 +65,10 @@
     color: #212EA0;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
     .testimonials {
         padding: 0 40px;
+        margin: 10px;
     }
 
     .next-btn,
@@ -78,6 +79,7 @@
 
     .testimonials ul li {
         padding: 10px;
+        min-width: 14rem;
     }
 
     .slide {
